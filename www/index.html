@@ -17,7 +17,7 @@
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript">
 			document.addEventListener("deviceready", function() {
-				if (navigator.connection.type == Connection.NONE)
+				if (navigator.network.connection.type == Connection.NONE)
 					location.href = "no_connection.html";
 			}, false);
     </script>
